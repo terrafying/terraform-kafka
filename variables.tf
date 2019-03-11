@@ -132,21 +132,6 @@ variable "private_key" {
   description = "local path to ssh private key"
 }
 
-variable "bastion_ip" {
-  type = "string"
-  description = "bastion IP address for ssh access"
-}
-
-variable "bastion_user" {
-  type = "string"
-  description = "user on bastion server"
-}
-
-variable "bastion_private_key" {
-  type = "string"
-  description = "local path to ssh private key for bastion access"
-}
-
 variable "cloudwatch_alarm_arn" {
   type = "string"
   description = "cloudwatch alarm ARN"
